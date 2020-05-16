@@ -88,11 +88,11 @@ class DetectorRostros {
 		for (Rect rect : rostros.toArray()) {
 			//Se dibuja un rectángulo donde se ha encontrado el rostro
 			Imgproc.rectangle(mRgba, new Point(rect.x, rect.y), new Point(rect.x + rect.width, rect.y + rect.height), new Scalar(255, 0, 0));
- 
-		}
+ 		}
 		return mRgba;
 	}
 }
+ 
  
 public class Principal {
  
